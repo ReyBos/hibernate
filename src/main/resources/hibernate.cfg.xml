@@ -14,5 +14,7 @@
         <mapping class="ru.reybos.many.model.UserMany" />
         <mapping class="ru.reybos.cars.model.CarModel" />
         <mapping class="ru.reybos.cars.model.CarProducer" />
+        <mapping class="ru.reybos.manytomany.model.Address" />
+        <mapping class="ru.reybos.manytomany.model.Person" />
     </session-factory>
 </hibernate-configuration>
