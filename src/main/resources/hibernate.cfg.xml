@@ -16,5 +16,7 @@
         <mapping class="ru.reybos.cars.model.CarProducer" />
         <mapping class="ru.reybos.manytomany.model.Address" />
         <mapping class="ru.reybos.manytomany.model.Person" />
+        <mapping class="ru.reybos.books.model.Author" />
+        <mapping class="ru.reybos.books.model.Book" />
     </session-factory>
 </hibernate-configuration>
