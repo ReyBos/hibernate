@@ -10,5 +10,7 @@
 
         <mapping class="ru.reybos.toone.model.Role" />
         <mapping class="ru.reybos.toone.model.User" />
+        <mapping class="ru.reybos.many.model.RoleMany" />
+        <mapping class="ru.reybos.many.model.UserMany" />
     </session-factory>
 </hibernate-configuration>
