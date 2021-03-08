@@ -12,5 +12,7 @@
         <mapping class="ru.reybos.toone.model.User" />
         <mapping class="ru.reybos.many.model.RoleMany" />
         <mapping class="ru.reybos.many.model.UserMany" />
+        <mapping class="ru.reybos.cars.model.CarModel" />
+        <mapping class="ru.reybos.cars.model.CarProducer" />
     </session-factory>
 </hibernate-configuration>
