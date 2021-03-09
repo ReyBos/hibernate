@@ -18,5 +18,7 @@
         <mapping class="ru.reybos.manytomany.model.Person" />
         <mapping class="ru.reybos.books.model.Author" />
         <mapping class="ru.reybos.books.model.Book" />
+        <mapping class="ru.reybos.lazy.model.Category" />
+        <mapping class="ru.reybos.lazy.model.Task" />
     </session-factory>
 </hibernate-configuration>
