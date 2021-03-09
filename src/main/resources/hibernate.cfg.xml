@@ -20,5 +20,7 @@
         <mapping class="ru.reybos.books.model.Book" />
         <mapping class="ru.reybos.lazy.model.Category" />
         <mapping class="ru.reybos.lazy.model.Task" />
+        <mapping class="ru.reybos.lazycars.model.Producer" />
+        <mapping class="ru.reybos.lazycars.model.Model" />
     </session-factory>
 </hibernate-configuration>
