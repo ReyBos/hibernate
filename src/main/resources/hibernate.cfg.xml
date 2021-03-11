@@ -22,5 +22,7 @@
         <mapping class="ru.reybos.lazy.model.Task" />
         <mapping class="ru.reybos.lazycars.model.Producer" />
         <mapping class="ru.reybos.lazycars.model.Model" />
+
+        <mapping class="ru.reybos.tutorial.helloworld.Message" />
     </session-factory>
 </hibernate-configuration>
