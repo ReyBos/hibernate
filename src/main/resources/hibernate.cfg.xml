@@ -22,6 +22,9 @@
         <mapping class="ru.reybos.lazy.model.Task" />
         <mapping class="ru.reybos.lazycars.model.Producer" />
         <mapping class="ru.reybos.lazycars.model.Model" />
+        <mapping class="ru.reybos.carandowner.model.Car" />
+        <mapping class="ru.reybos.carandowner.model.Engine" />
+        <mapping class="ru.reybos.carandowner.model.Driver" />
 
         <mapping class="ru.reybos.tutorial.helloworld.Message" />
     </session-factory>
