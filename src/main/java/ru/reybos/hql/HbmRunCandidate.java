@@ -1,4 +1,4 @@
-package ru.reybos.hql.model;
+package ru.reybos.hql;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -8,6 +8,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.query.Query;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.reybos.hql.model.Candidate;
 
 public class HbmRunCandidate {
     private static final Logger LOG = LoggerFactory.getLogger(HbmRunCandidate.class.getName());

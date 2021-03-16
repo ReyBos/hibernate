@@ -16,6 +16,10 @@ public class Student {
 
     private String city;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "account_id")
+    private Account account;
+
     public static Student of(String name, int age, String city) {
         Student student = new Student();
         student.name = name;
@@ -54,6 +58,14 @@ public class Student {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
     }
 
     @Override
