@@ -29,6 +29,9 @@
         <mapping class="ru.reybos.hql.model.Candidate" />
         <mapping class="ru.reybos.hql.model.Account" />
         <mapping class="ru.reybos.hql.model.Book" />
+        <mapping class="ru.reybos.hh.model.Vacancy" />
+        <mapping class="ru.reybos.hh.model.VacancyDb" />
+        <mapping class="ru.reybos.hh.model.CandidateHH" />
 
         <mapping class="ru.reybos.tutorial.helloworld.Message" />
     </session-factory>
