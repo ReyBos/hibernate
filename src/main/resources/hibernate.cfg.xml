@@ -26,6 +26,7 @@
         <mapping class="ru.reybos.carandowner.model.Engine" />
         <mapping class="ru.reybos.carandowner.model.Driver" />
         <mapping class="ru.reybos.hql.model.Student" />
+        <mapping class="ru.reybos.hql.model.Candidate" />
 
         <mapping class="ru.reybos.tutorial.helloworld.Message" />
     </session-factory>
