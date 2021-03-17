@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "book")
-public class Book {
+public class BookTest {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -16,8 +16,8 @@ public class Book {
     @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     private List<Author> authors = new ArrayList<>();
 
-    public static Book of(String name) {
-        Book book = new Book();
+    public static BookTest of(String name) {
+        BookTest book = new BookTest();
         book.setName(name);
         return book;
     }
@@ -54,7 +54,7 @@ public class Book {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Book book = (Book) o;
+        BookTest book = (BookTest) o;
         return id == book.id;
     }
 

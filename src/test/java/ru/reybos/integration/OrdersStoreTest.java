@@ -3,6 +3,7 @@ package ru.reybos.integration;
 import static org.junit.Assert.*;
 
 import org.apache.commons.dbcp2.BasicDataSource;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -37,6 +38,11 @@ public class OrdersStoreTest {
             LOG.debug("ошибка", e);
         }
         pool.getConnection().prepareStatement(builder.toString()).executeUpdate();
+    }
+
+    @After
+    public void clear() throws SQLException {
+        pool.getConnection().prepareStatement("DROP TABLE orders").executeUpdate();
     }
 
     @Test

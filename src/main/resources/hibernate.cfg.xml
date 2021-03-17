@@ -17,7 +17,7 @@
         <mapping class="ru.reybos.manytomany.model.Address" />
         <mapping class="ru.reybos.manytomany.model.Person" />
         <mapping class="ru.reybos.books.model.Author" />
-<!--        <mapping class="ru.reybos.books.model.Book" />-->
+        <mapping class="ru.reybos.books.model.BookTest" />
         <mapping class="ru.reybos.lazy.model.Category" />
         <mapping class="ru.reybos.lazy.model.Task" />
         <mapping class="ru.reybos.lazycars.model.Producer" />
